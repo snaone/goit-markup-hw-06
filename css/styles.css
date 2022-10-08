@@ -650,7 +650,6 @@ a {
 .footer-container {
 	display: flex;
 	align-items: baseline;
-	justify-content: space-between;
 }
 
 .footer-logo {
@@ -681,6 +680,10 @@ a {
 .contacts-list li:first-child .contacts-item:hover,
 .contacts-list li:first-child .contacts-item:focus {
 	color: var(--accent-color);
+}
+
+.footer-social {
+	margin-left: 72px;
 }
 
 .footer-descriptions {
@@ -714,6 +717,11 @@ a {
 	background-color: var(--accent-color);
 	fill: var(--primary-white-color);
 }
+
+.footer-subscribe {
+	margin-left: auto;
+}
+
 
 .footer-label {
 	font-weight: 700;
